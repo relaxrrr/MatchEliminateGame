@@ -1,0 +1,64 @@
+# 构建目录
+build/
+out/
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*.xcworkspace
+xcuserdata/
+DerivedData/
+
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+.gradle/
+local.properties
+proj.android/app/build/
+proj.android/.gradle/
+
+# 编译产物
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# 日志文件
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 预编译头文件
+*.pch
+
+# Debug 构建目录
+Debug.win32/
+**/Debug.win32/
+Release.win32/
+**/Release.win32/
+
+# Cocos2d-x 编译产物
+cocos2d/**/Debug.win32/
+cocos2d/**/Release.win32/
+cocos2d/**/*.pch
